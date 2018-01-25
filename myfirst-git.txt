@@ -7,3 +7,4 @@ git status --状态
 git add  --添加
 git commit -m “备注”   --提交
 git diff 文件  --变更点
+git log --查看历史记录

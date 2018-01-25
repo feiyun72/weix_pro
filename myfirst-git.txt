@@ -8,3 +8,5 @@ git add  --添加
 git commit -m “备注”   --提交
 git diff 文件  --变更点
 git log --查看历史记录
+git reset  --hard HEAD^ --回退到上一版本（n个^表示回退到上n个版本）
+git reset  --hard HEAD~100 -- 回退到上100个版本

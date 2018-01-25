@@ -1,0 +1,3 @@
+C:\Users\zdy>git config --global user.name "zhangdy"
+
+C:\Users\zdy>git config --global user.email "zhang_dong_yun@126.com"

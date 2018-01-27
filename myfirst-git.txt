@@ -13,3 +13,5 @@ git reset  --hard HEAD~100 -- 回退到上100个版本
 git reflog --获取版本号
 git reset  --hard 6fcfc89（版本号） --回退到该版本号
 git checkout -- myfirst-git.txt（文件）  --在工作区做的修改全部撤销
+
+git remote add origin https://github.com/feiyun72/weix_pro.git     git push -u origin master   --提交到远程库

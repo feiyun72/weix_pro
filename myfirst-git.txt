@@ -14,4 +14,14 @@ git reflog --获取版本号
 git reset  --hard 6fcfc89（版本号） --回退到该版本号
 git checkout -- myfirst-git.txt（文件）  --在工作区做的修改全部撤销
 
-git remote add origin https://github.com/feiyun72/weix_pro.git     git push -u origin master   --提交到远程库
+git remote add origin https://github.com/feiyun72/weix_pro.git     git push -u origin master   --第一次提交到远程库
+git push origin master --之后再提交不用加-u，从现在起，只要本地作了提交，就可以通过该命令提交到远程库
+
+git clone https://github.com/feiyun72/mytest.git  ---从远程库克隆到本地
+
+git branch --查看当前分支
+git checkout -b dev --命令加上 –b参数表示创建并切换，相当于如下2条命令  
+git branch dev --创建分支
+git checkout dev --切换分支
+
+

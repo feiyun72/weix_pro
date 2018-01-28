@@ -17,19 +17,12 @@ git checkout -- myfirst-git.txt（文件）  --在工作区做的修改全部撤
 git remote add origin https://github.com/feiyun72/weix_pro.git     git push -u origin master   --第一次提交到远程库
 git push origin master --之后再提交不用加-u，从现在起，只要本地作了提交，就可以通过该命令提交到远程库
 
-git clone https://github.com/feiyun72/mytest.git  ---从远程库克隆到本地
+git clone https://github.com/feiyun72/weix_pro.git  ---从远程库克隆到本地（默认master主分支）
+git clone -b dev1 https://github.com/feiyun72/weix_pro.git  --从远程库将dev1分支克隆到本地
 
-git branch --查看当前分支
+git branch --查看当前分支            git branch -a 查看当前远端分支情况
 git checkout -b dev --命令加上 –b参数表示创建并切换，相当于如下2条命令  
 git branch dev --创建分支
 git checkout dev --切换分支
 git merge dev -- 把dev分支上的内容合并到分支master
 git branch -d dev --删除dev分支
-、、、、
-
-444444
-<<<<<<< HEAD
-0000000
-=======
-99999
->>>>>>> dev1
